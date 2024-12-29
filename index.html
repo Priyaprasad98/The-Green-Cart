@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- <navbar starts here -->
+ <nav class="flex items-center w-full h-16 bg-green-900 border-b-4 border-yellow-400 justify-between px-8 md:px-20 py-2 sticky top-0 right-0 left-0 z-50">
+    <div class="font-Lobster text-2xl text-white font-medium">The Green Cart.</div>
+    <ul class="md:flex items-center gap-10 justify-center hidden">
+        <li class="font-Jost text-lg p-2 text-white hover:text-yellow-400 hover:cursor-pointer">Home</li>
+        <li class="font-Jost text-lg p-2 text-white hover:text-yellow-400 hover:cursor-pointer">About</li>
+        <li class="font-Jost text-lg p-2 text-white hover:text-yellow-400 hover:cursor-pointer">Popular</li>
+        <li class="font-Jost text-lg p-2 text-white hover:text-yellow-400 hover:cursor-pointer">Review</li>
+    </ul>
+    <div class="text-4xl text-white md:hidden hover:cursor-pointer hover:text-yellow-400">
+        <a href="#">&#8801;</a>
+    </div>
+ </nav>
+<!-- navbar close here -->
+  <!-- hero section starts here -->
+  <div class=" flex flex-col  lg:flex-row  bg-green-950 w-full h-auto pt-5 md:pt-10 px-8 md:px-20">
+    <div class="flex flex-col h-auto w-full">
+        <div class="text-4xl md:text-6xl text-white font-Jost pt-10 font-semibold"><span class="text-yellow-400">Plants</span> make a positive <span class="text-yellow-400">impact</span> on your environment
+        </div>
+        <div class="font-serif mt-4 md:mt-8 text-white text-lg font-extralight text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officia est adipisci quos sint praesentium quae veritatis minus quisquam corporis!</div>
+        <div class="flex flex-col md:flex md:flex-row md:gap-6 md:mt-10">
+        <button class="bg-yellow-400 text-white font-jost font-medium mt-6 p-2 rounded-lg w-full md:w-60 text-lg hover:bg-yellow-400 transition ease-out duration-150 hover:scale-105">Shop Now
+              <svg class="h-5 w-5 inline"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.998 3V5C20.998 14.6274 15.6255 19 8.99805 19L5.24077 18.9999C5.0786 19.912 4.99805 20.907 4.99805 22H2.99805C2.99805 20.6373 3.11376 19.3997 3.34381 18.2682C3.1133 16.9741 2.99805 15.2176 2.99805 13C2.99805 7.47715 7.4752 3 12.998 3C14.998 3 16.998 4 20.998 3ZM12.998 5C8.57977 5 4.99805 8.58172 4.99805 13C4.99805 13.3624 5.00125 13.7111 5.00759 14.0459C6.26198 12.0684 8.09902 10.5048 10.5019 9.13176L11.4942 10.8682C8.6393 12.4996 6.74554 14.3535 5.77329 16.9998L8.99805 17C15.0132 17 18.8692 13.0269 18.9949 5.38766C17.6229 5.52113 16.3481 5.436 14.7754 5.20009C13.6243 5.02742 13.3988 5 12.998 5Z"></path></svg>
+        <button class="border-yellow-400 border-2 rounded-lg  text-white font-jost font-medium mt-6 p-2 w-full md:w-60 text-lg hover:bg-yellow-400 transition ease-out duration-150 hover:scale-105">Know More
+                <svg class="h-5 w-5 inline"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.998 3V5C20.998 14.6274 15.6255 19 8.99805 19L5.24077 18.9999C5.0786 19.912 4.99805 20.907 4.99805 22H2.99805C2.99805 20.6373 3.11376 19.3997 3.34381 18.2682C3.1133 16.9741 2.99805 15.2176 2.99805 13C2.99805 7.47715 7.4752 3 12.998 3C14.998 3 16.998 4 20.998 3ZM12.998 5C8.57977 5 4.99805 8.58172 4.99805 13C4.99805 13.3624 5.00125 13.7111 5.00759 14.0459C6.26198 12.0684 8.09902 10.5048 10.5019 9.13176L11.4942 10.8682C8.6393 12.4996 6.74554 14.3535 5.77329 16.9998L8.99805 17C15.0132 17 18.8692 13.0269 18.9949 5.38766C17.6229 5.52113 16.3481 5.436 14.7754 5.20009C13.6243 5.02742 13.3988 5 12.998 5Z"></path></svg>   
+            </button>
+        </div>
+        
+        <div class="text-white font-serif mt-6 text-sm md:text-[15px] md:mt-8 ">You will get 30 days free trial</div>
+        <div class="flex text-white gap-6 mt-6 md:mt-16">
+            <svg class="w-5 h-5 transition duration-200 ease-in-out hover:scale-110 hover:text-yellow-400 hover:cursor-pointer"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6874 3.0625L12.6907 8.77425L8.37045 3.0625H2.11328L9.58961 12.8387L2.50378 20.9375H5.53795L11.0068 14.6886L15.7863 20.9375H21.8885L14.095 10.6342L20.7198 3.0625H17.6874ZM16.6232 19.1225L5.65436 4.78217H7.45745L18.3034 19.1225H16.6232Z"></path></svg>
+
+            <svg class="w-5 h-5 transition duration-200 ease-in-out hover:scale-110 hover:text-yellow-400 hover:cursor-pointer"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z"></path></svg>
+
+            <svg class="w-5 h-5 transition duration-200 ease-in-out hover:scale-110 hover:text-yellow-400 hover:cursor-pointer"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.0281 2.00073C14.1535 2.00259 14.7238 2.00855 15.2166 2.02322L15.4107 2.02956C15.6349 2.03753 15.8561 2.04753 16.1228 2.06003C17.1869 2.1092 17.9128 2.27753 18.5503 2.52503C19.2094 2.7792 19.7661 3.12253 20.3219 3.67837C20.8769 4.2342 21.2203 4.79253 21.4753 5.45003C21.7219 6.0867 21.8903 6.81337 21.9403 7.87753C21.9522 8.1442 21.9618 8.3654 21.9697 8.58964L21.976 8.78373C21.9906 9.27647 21.9973 9.84686 21.9994 10.9723L22.0002 11.7179C22.0003 11.809 22.0003 11.903 22.0003 12L22.0002 12.2821L21.9996 13.0278C21.9977 14.1532 21.9918 14.7236 21.9771 15.2163L21.9707 15.4104C21.9628 15.6347 21.9528 15.8559 21.9403 16.1225C21.8911 17.1867 21.7219 17.9125 21.4753 18.55C21.2211 19.2092 20.8769 19.7659 20.3219 20.3217C19.7661 20.8767 19.2069 21.22 18.5503 21.475C17.9128 21.7217 17.1869 21.89 16.1228 21.94C15.8561 21.9519 15.6349 21.9616 15.4107 21.9694L15.2166 21.9757C14.7238 21.9904 14.1535 21.997 13.0281 21.9992L12.2824 22C12.1913 22 12.0973 22 12.0003 22L11.7182 22L10.9725 21.9993C9.8471 21.9975 9.27672 21.9915 8.78397 21.9768L8.58989 21.9705C8.36564 21.9625 8.14444 21.9525 7.87778 21.94C6.81361 21.8909 6.08861 21.7217 5.45028 21.475C4.79194 21.2209 4.23444 20.8767 3.67861 20.3217C3.12278 19.7659 2.78028 19.2067 2.52528 18.55C2.27778 17.9125 2.11028 17.1867 2.06028 16.1225C2.0484 15.8559 2.03871 15.6347 2.03086 15.4104L2.02457 15.2163C2.00994 14.7236 2.00327 14.1532 2.00111 13.0278L2.00098 10.9723C2.00284 9.84686 2.00879 9.27647 2.02346 8.78373L2.02981 8.58964C2.03778 8.3654 2.04778 8.1442 2.06028 7.87753C2.10944 6.81253 2.27778 6.08753 2.52528 5.45003C2.77944 4.7917 3.12278 4.2342 3.67861 3.67837C4.23444 3.12253 4.79278 2.78003 5.45028 2.52503C6.08778 2.27753 6.81278 2.11003 7.87778 2.06003C8.14444 2.04816 8.36564 2.03847 8.58989 2.03062L8.78397 2.02433C9.27672 2.00969 9.8471 2.00302 10.9725 2.00086L13.0281 2.00073ZM12.0003 7.00003C9.23738 7.00003 7.00028 9.23956 7.00028 12C7.00028 14.7629 9.23981 17 12.0003 17C14.7632 17 17.0003 14.7605 17.0003 12C17.0003 9.23713 14.7607 7.00003 12.0003 7.00003ZM12.0003 9.00003C13.6572 9.00003 15.0003 10.3427 15.0003 12C15.0003 13.6569 13.6576 15 12.0003 15C10.3434 15 9.00028 13.6574 9.00028 12C9.00028 10.3431 10.3429 9.00003 12.0003 9.00003ZM17.2503 5.50003C16.561 5.50003 16.0003 6.05994 16.0003 6.74918C16.0003 7.43843 16.5602 7.9992 17.2503 7.9992C17.9395 7.9992 18.5003 7.4393 18.5003 6.74918C18.5003 6.05994 17.9386 5.49917 17.2503 5.50003Z"></path></svg>
+
+            <svg class="w-5 h-5 transition duration-200 ease-in-out hover:scale-110 hover:text-yellow-400 hover:cursor-pointer"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z"></path></svg>
+
+        </div>
+    </div>
+    <div>
+        <img class="w-50 h-50 p-4 md:h-50 md:max-w-[38rem]"src="./img/home.png" alt="plant_preview">
+    </div>
+   </div>
+   <!-- hero section ends here -->
+   <!-- features section starts here -->
+    <div class=" w-full h-full grid items-stretch grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 bg-white text-green-950 px-8 md:px-20 mt-10  md:gap-4 gap-6 ">
+        <div class="flex flex-col border-2 border-green-950 md:gap-6 gap-3 p-2 rounded-lg shadow-lg shadow-green-950 transition duration-200 hover:scale-105 ease-in-out">
+        <div class=" flex flex-row items-center gap-4 p-2">
+            <svg class="text-green-950 h-20 w-20"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8.96456 18C8.72194 19.6961 7.26324 21 5.5 21C3.73676 21 2.27806 19.6961 2.03544 18H1V6C1 5.44772 1.44772 5 2 5H16C16.5523 5 17 5.44772 17 6V8H20L23 12.0557V18H20.9646C20.7219 19.6961 19.2632 21 17.5 21C15.7368 21 14.2781 19.6961 14.0354 18H8.96456ZM15 7H3V15.0505C3.63526 14.4022 4.52066 14 5.5 14C6.8962 14 8.10145 14.8175 8.66318 16H14.3368C14.5045 15.647 14.7296 15.3264 15 15.0505V7ZM17 13H21V12.715L18.9917 10H17V13ZM17.5 19C18.1531 19 18.7087 18.5826 18.9146 18C18.9699 17.8436 19 17.6753 19 17.5C19 16.6716 18.3284 16 17.5 16C16.6716 16 16 16.6716 16 17.5C16 17.6753 16.0301 17.8436 16.0854 18C16.2913 18.5826 16.8469 19 17.5 19ZM7 17.5C7 16.6716 6.32843 16 5.5 16C4.67157 16 4 16.6716 4 17.5C4 17.6753 4.03008 17.8436 4.08535 18C4.29127 18.5826 4.84689 19 5.5 19C6.15311 19 6.70873 18.5826 6.91465 18C6.96992 17.8436 7 17.6753 7 17.5Z"></path></svg>
+            <h1 class="text-3xl font-Jost ">Fast<br> Delivery</h1>
+        </div>
+        <p class="text-lg font-serif">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eos non voluptatum, fuga illo quod quos quis quia suscipit aperiam!</p>
+     </div>
+
+     <div class="flex flex-col border-2 border-green-950 md:gap-6 gap-3 p-2 rounded-lg shadow-lg shadow-green-950 transition duration-200 hover:scale-105 ease-in-out">
+        <div class=" flex flex-row items-center gap-4 p-2">
+            <svg class="text-green-950 h-20 w-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M22 17.0022C21.999 19.8731 19.9816 22.2726 17.2872 22.8616L16.6492 20.9476C17.8532 20.7511 18.8765 20.0171 19.4649 19H17C15.8954 19 15 18.1046 15 17V13C15 11.8954 15.8954 11 17 11H19.9381C19.446 7.05369 16.0796 4 12 4C7.92038 4 4.55399 7.05369 4.06189 11H7C8.10457 11 9 11.8954 9 13V17C9 18.1046 8.10457 19 7 19H4C2.89543 19 2 18.1046 2 17V12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12V12.9987V13V17V17.0013V17.0022ZM20 17V13H17V17H20ZM4 13V17H7V13H4Z"></path></svg>
+            <h1 class="text-3xl font-Jost md:max-h-20 md:max-w-20">Great Customer<br> Service</h1>
+        </div>
+        <p class="text-lg font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae autem modi, voluptas aliquid voluptatibus mollitia optio ea eaque laudantium.</p>
+     </div>
+
+     <div class="flex flex-col border-2 border-green-950 md:gap-6 gap-3 p-2 rounded-lg shadow-lg shadow-green-950 transition duration-200 hover:scale-105 ease-in-out">
+        <div class=" flex flex-row items-center gap-4 p-2">
+            <svg class="text-green-950 h-20 w-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.99805 2C8.68733 2 11.0224 3.51653 12.1947 5.74104C13.372 4.08252 15.3086 3 17.498 3H20.998V5.5C20.998 9.08985 18.0879 12 14.498 12H12.998V13H17.998V20C17.998 21.1046 17.1026 22 15.998 22H7.99805C6.89348 22 5.99805 21.1046 5.99805 20V13H10.998V11H8.99805C5.13205 11 1.99805 7.86599 1.99805 4V2H5.99805ZM15.998 15H7.99805V20H15.998V15ZM18.998 5H17.498C15.0128 5 12.998 7.01472 12.998 9.5V10H14.498C16.9833 10 18.998 7.98528 18.998 5.5V5ZM5.99805 4H3.99805C3.99805 6.76142 6.23662 9 8.99805 9H10.998C10.998 6.23858 8.75947 4 5.99805 4Z"></path></svg>
+            <h1 class="text-3xl font-Jost">Fresh<br> plants</h1>
+        </div>
+        <p class="text-lg font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae autem modi, voluptas aliquid voluptatibus mollitia optio ea eaque laudantium.</p>
+     </div>
+
+     <div class="flex flex-col border-2 border-green-950 md:gap-6 gap-3 p-2 rounded-lg shadow-lg shadow-green-950 transition duration-200 hover:scale-105 ease-in-out">
+        <div class=" flex flex-row items-center gap-4 p-2">
+            <svg class="text-green-950 h-20 w-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0049 22.0027C6.48204 22.0027 2.00488 17.5256 2.00488 12.0027C2.00488 6.4799 6.48204 2.00275 12.0049 2.00275C17.5277 2.00275 22.0049 6.4799 22.0049 12.0027C22.0049 17.5256 17.5277 22.0027 12.0049 22.0027ZM12.0049 20.0027C16.4232 20.0027 20.0049 16.421 20.0049 12.0027C20.0049 7.58447 16.4232 4.00275 12.0049 4.00275C7.5866 4.00275 4.00488 7.58447 4.00488 12.0027C4.00488 16.421 7.5866 20.0027 12.0049 20.0027ZM8.50488 14.0027H14.0049C14.281 14.0027 14.5049 13.7789 14.5049 13.5027C14.5049 13.2266 14.281 13.0027 14.0049 13.0027H10.0049C8.62417 13.0027 7.50488 11.8835 7.50488 10.5027C7.50488 9.12203 8.62417 8.00275 10.0049 8.00275H11.0049V6.00275H13.0049V8.00275H15.5049V10.0027H10.0049C9.72874 10.0027 9.50488 10.2266 9.50488 10.5027C9.50488 10.7789 9.72874 11.0027 10.0049 11.0027H14.0049C15.3856 11.0027 16.5049 12.122 16.5049 13.5027C16.5049 14.8835 15.3856 16.0027 14.0049 16.0027H13.0049V18.0027H11.0049V16.0027H8.50488V14.0027Z"></path></svg>
+            <h1 class="text-3xl font-Jost">Affordable <br>Plants</h1>
+        </div>
+        <p class="text-lg font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae autem modi, voluptas aliquid voluptatibus mollitia optio ea eaque laudantium.</p>
+     </div>
+     </div>
+<!-- features section ends here -->
+ <!-- popular section starts here -->
+  <header class="flex flex-col bg-green-900 items-center justify-center mt-10">
+    <h1 class="font-Jost text-yellow-400 text-4xl pt-6 mt-8">Customer Favorites</h1>
+    <p class="text-white mt-2 font-serif mb-10">Follow instructions for more</p>
+  </header>
+
+  <div class="flex flex-row flex-wrap items-center justify-evenly px-8 md:px-20 pt-10 bg-green-900 gap-5 pb-20 w-full h-auto">
+    <!-- 1st product design -->
+    <div class=" bg-green-950 flex flex-col justify-center px-4 pb-5 rounded-sm group">
+        <img class="w-[15rem] md:h-[15rem] hover:cursor-pointer transition ease-out duration-500 group-hover:scale-105 z-0" src="./img/cart-1.png">
+        <p class="italic text-white font-serif text-sm">Nephrolepis Fern</p>
+        <h1 class="text-white text-lg hover:cursor-pointer">Boston Fern</h1>
+        <div class="flex text-yellow-400 items-center mt-3 
+        gap-1">
+            <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+            <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+            <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502V15.968ZM12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+            <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+            <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+        </div>
+
+        <div class="flex justify-between text-white mt-3">
+            <h1 class="text-xl p-1 ">$5</h1>
+            <svg class="w-8 h-8 hover:cursor-pointer bg-yellow-400 hover:bg-yellow-500 p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.00488 9H19.9433L20.4433 7H8.00488V5H21.7241C22.2764 5 22.7241 5.44772 22.7241 6C22.7241 6.08176 22.7141 6.16322 22.6942 6.24254L20.1942 16.2425C20.083 16.6877 19.683 17 19.2241 17H5.00488C4.4526 17 4.00488 16.5523 4.00488 16V4H2.00488V2H5.00488C5.55717 2 6.00488 2.44772 6.00488 3V9ZM6.00488 23C4.90031 23 4.00488 22.1046 4.00488 21C4.00488 19.8954 4.90031 19 6.00488 19C7.10945 19 8.00488 19.8954 8.00488 21C8.00488 22.1046 7.10945 23 6.00488 23ZM18.0049 23C16.9003 23 16.0049 22.1046 16.0049 21C16.0049 19.8954 16.9003 19 18.0049 19C19.1095 19 20.0049 19.8954 20.0049 21C20.0049 22.1046 19.1095 23 18.0049 23Z"></path></svg>
+        </div>
+    </div>
+<!-- 1st product ends -->
+
+ <!-- 2st product design -->
+ <div class="bg-green-950 flex flex-col justify-center px-4 pb-5 rounded-sm group">
+    <img class="w-[15rem] h-[15rem] hover:cursor-pointer transition ease-out duration-500 group-hover:scale-105" src="./img/cart-2.png">
+    <p class="italic text-white font-serif text-sm">Ficus elastica</p>
+    <h1 class="text-white text-lg hover:cursor-pointer">Rubber Plant</h1>
+    <div class="flex text-yellow-400 items-center mt-3 gap-1">
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502V15.968ZM12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+    </div>
+
+    <div class="flex justify-between text-white mt-3">
+        <h1 class="text-xl p-1">$5</h1>
+        <svg class="w-8 h-8 hover:cursor-pointer bg-yellow-400 hover:bg-yellow-500 p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.00488 9H19.9433L20.4433 7H8.00488V5H21.7241C22.2764 5 22.7241 5.44772 22.7241 6C22.7241 6.08176 22.7141 6.16322 22.6942 6.24254L20.1942 16.2425C20.083 16.6877 19.683 17 19.2241 17H5.00488C4.4526 17 4.00488 16.5523 4.00488 16V4H2.00488V2H5.00488C5.55717 2 6.00488 2.44772 6.00488 3V9ZM6.00488 23C4.90031 23 4.00488 22.1046 4.00488 21C4.00488 19.8954 4.90031 19 6.00488 19C7.10945 19 8.00488 19.8954 8.00488 21C8.00488 22.1046 7.10945 23 6.00488 23ZM18.0049 23C16.9003 23 16.0049 22.1046 16.0049 21C16.0049 19.8954 16.9003 19 18.0049 19C19.1095 19 20.0049 19.8954 20.0049 21C20.0049 22.1046 19.1095 23 18.0049 23Z"></path></svg>
+    </div>
+</div>
+<!-- 2st product ends -->
+
+<!-- 3st product design -->
+<div class="bg-green-950 flex flex-col justify-center px-4 pb-5 rounded-sm group">
+    <img class="w-[15rem] h-[15rem] hover:cursor-pointer transition ease-out duration-500 group-hover:scale-105" src="./img/cart-3.png">
+    <p class="italic text-white font-serif text-sm">Spathiphyllum Wallisii</p>
+    <h1 class="text-white text-lg hover:cursor-pointer">Peace Lily</h1>
+    <div class="flex text-yellow-400 items-center mt-3 gap-1">
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502V15.968ZM12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+    </div>
+
+    <div class="flex justify-between text-white mt-3">
+        <h1 class="text-xl p-1">$5</h1>
+        <svg class="w-8 h-8 hover:cursor-pointer bg-yellow-400 hover:bg-yellow-500 p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.00488 9H19.9433L20.4433 7H8.00488V5H21.7241C22.2764 5 22.7241 5.44772 22.7241 6C22.7241 6.08176 22.7141 6.16322 22.6942 6.24254L20.1942 16.2425C20.083 16.6877 19.683 17 19.2241 17H5.00488C4.4526 17 4.00488 16.5523 4.00488 16V4H2.00488V2H5.00488C5.55717 2 6.00488 2.44772 6.00488 3V9ZM6.00488 23C4.90031 23 4.00488 22.1046 4.00488 21C4.00488 19.8954 4.90031 19 6.00488 19C7.10945 19 8.00488 19.8954 8.00488 21C8.00488 22.1046 7.10945 23 6.00488 23ZM18.0049 23C16.9003 23 16.0049 22.1046 16.0049 21C16.0049 19.8954 16.9003 19 18.0049 19C19.1095 19 20.0049 19.8954 20.0049 21C20.0049 22.1046 19.1095 23 18.0049 23Z"></path></svg>
+    </div>
+</div>
+<!-- 3st product ends -->
+
+<!-- 4st product design -->
+<div class="bg-green-950 flex flex-col justify-center px-4 pb-5 rounded-sm group">
+    <img class="w-[15rem] h-[15rem] hover:cursor-pointer transition ease-out duration-500 group-hover:scale-105" src="./img/cart-4.png">
+    <p class="italic text-white font-serif text-sm">Adenium Obesum</p>
+    <h1 class="text-white text-lg hover:cursor-pointer">Desert Rose</h1>
+    <div class="flex text-yellow-400 items-center mt-3 gap-1">
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502V15.968ZM12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+        <svg class="w-4 h-4 hover:cursor-pointer hover:text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"></path></svg>
+
+    </div>
+
+    <div class="flex justify-between text-white mt-3">
+        <h1 class="text-xl p-1">$5</h1>
+        <svg class="w-8 h-8 hover:cursor-pointer bg-yellow-400 hover:bg-yellow-500 p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.00488 9H19.9433L20.4433 7H8.00488V5H21.7241C22.2764 5 22.7241 5.44772 22.7241 6C22.7241 6.08176 22.7141 6.16322 22.6942 6.24254L20.1942 16.2425C20.083 16.6877 19.683 17 19.2241 17H5.00488C4.4526 17 4.00488 16.5523 4.00488 16V4H2.00488V2H5.00488C5.55717 2 6.00488 2.44772 6.00488 3V9ZM6.00488 23C4.90031 23 4.00488 22.1046 4.00488 21C4.00488 19.8954 4.90031 19 6.00488 19C7.10945 19 8.00488 19.8954 8.00488 21C8.00488 22.1046 7.10945 23 6.00488 23ZM18.0049 23C16.9003 23 16.0049 22.1046 16.0049 21C16.0049 19.8954 16.9003 19 18.0049 19C19.1095 19 20.0049 19.8954 20.0049 21C20.0049 22.1046 19.1095 23 18.0049 23Z"></path></svg>
+    </div>
+</div>
+<!-- 4st product ends -->
+</div>
+
+<!-- review section starts here -->
+ 
+<header class="flex flex-col items-center bg-green-950 justify-center">
+    <h1 class="font-Jost text-yellow-400 text-4xl pt-6 mt-8">Customer Review</h1>
+    <p class="text-white mt-2 font-serif mb-10">Follow instructions for more</p>
+  </header>
+
+<div class="bg-green-950 px-8 md:px-20 pb-20 ">
+    <div class="flex flex-row flex-wrap md:flex-col gap-5 ">
+          <div class="bg-green-900 rounded-md p-2 container transition ease-out duration-500 hover:scale-105">
+              <div class="flex flex-col text-white text-sm md:text-lg px-4">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea adipisci exercitationem ducimus consectetur! Laborum quod doloribus corporis velit dicta?</p> 
+                 <div class="flex flex-row items-center justify-between">
+                   <div class="flex gap-3 py-2">
+                      <img class="rounded-full w-12 h-12" src="./img/review-1.jpg" alt="">
+                      <div> 
+                        <p class="text-yellow-400 uppercase text-sm md:text-lg font-Jost">Priya Prasad</p>
+                        <p class="text-white font-serif">Developer</p>
+                       </div>    
+                    </div>
+                    <svg class="text-white w-4 h-4 md:w-8 md:h-8 text-4xl"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.4167 6.67891C20.4469 7.77257 21.0001 9 21.0001 10.9897C21.0001 14.4891 18.5436 17.6263 14.9695 19.1768L14.0768 17.7992C17.4121 15.9946 18.0639 13.6539 18.3245 12.178C17.7875 12.4557 17.0845 12.5533 16.3954 12.4895C14.591 12.3222 13.1689 10.8409 13.1689 9C13.1689 7.067 14.7359 5.5 16.6689 5.5C17.742 5.5 18.7681 5.99045 19.4167 6.67891ZM9.41669 6.67891C10.4469 7.77257 11.0001 9 11.0001 10.9897C11.0001 14.4891 8.54359 17.6263 4.96951 19.1768L4.07682 17.7992C7.41206 15.9946 8.06392 13.6539 8.32447 12.178C7.78747 12.4557 7.08452 12.5533 6.39539 12.4895C4.59102 12.3222 3.16895 10.8409 3.16895 9C3.16895 7.067 4.73595 5.5 6.66895 5.5C7.742 5.5 8.76814 5.99045 9.41669 6.67891Z"></path></svg>
+                  </div>
+                </div>  
+            </div>
+            
+            
+            <div class="bg-green-900 rounded-md p-2 container transition ease-out duration-500 hover:scale-105">
+                <div class="flex flex-col text-white text-sm md:text-lg px-4">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam optio laboriosam vero magni vitae quos magnam perspiciatis accusantium doloribus quae?</p> 
+                   <div class="flex flex-row items-center justify-between">
+                     <div class="flex gap-3 py-2">
+                        <img class="rounded-full w-12 h-12" src="./img/review-2.jpg" alt="">
+                        <div> 
+                          <p class="text-yellow-400 uppercase text-sm md:text-lg font-Jost">manish </p>
+                          <p class="text-white font-serif">Decorater</p>
+                         </div>    
+                      </div>
+                      <svg class="text-white w-4 h-4 md:w-8 md:h-8 text-4xl"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.4167 6.67891C20.4469 7.77257 21.0001 9 21.0001 10.9897C21.0001 14.4891 18.5436 17.6263 14.9695 19.1768L14.0768 17.7992C17.4121 15.9946 18.0639 13.6539 18.3245 12.178C17.7875 12.4557 17.0845 12.5533 16.3954 12.4895C14.591 12.3222 13.1689 10.8409 13.1689 9C13.1689 7.067 14.7359 5.5 16.6689 5.5C17.742 5.5 18.7681 5.99045 19.4167 6.67891ZM9.41669 6.67891C10.4469 7.77257 11.0001 9 11.0001 10.9897C11.0001 14.4891 8.54359 17.6263 4.96951 19.1768L4.07682 17.7992C7.41206 15.9946 8.06392 13.6539 8.32447 12.178C7.78747 12.4557 7.08452 12.5533 6.39539 12.4895C4.59102 12.3222 3.16895 10.8409 3.16895 9C3.16895 7.067 4.73595 5.5 6.66895 5.5C7.742 5.5 8.76814 5.99045 9.41669 6.67891Z"></path></svg>
+                    </div>
+                  </div>  
+              </div>
+
+
+              <div class="bg-green-900 rounded-md p-2 container transition ease-out duration-500 hover:scale-105">
+                <div class="flex flex-col text-white text-sm md:text-lg px-4">
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero minima doloribus neque quasi! Minus corrupti dolore consequatur quae officiis eos.</p> 
+                   <div class="flex flex-row items-center justify-between">
+                     <div class="flex gap-3 py-2">
+                        <img class="rounded-full w-12 h-12" src="./img/review-3.jpg" alt="">
+                        <div> 
+                          <p class="text-yellow-400 uppercase text-sm md:text-lg font-Jost">Sakti das</p>
+                          <p class="text-white  font-serif">Student</p>
+                         </div>    
+                      </div>
+                      <svg class="text-white w-4 h-4 md:w-8 md:h-8 text-4xl"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.4167 6.67891C20.4469 7.77257 21.0001 9 21.0001 10.9897C21.0001 14.4891 18.5436 17.6263 14.9695 19.1768L14.0768 17.7992C17.4121 15.9946 18.0639 13.6539 18.3245 12.178C17.7875 12.4557 17.0845 12.5533 16.3954 12.4895C14.591 12.3222 13.1689 10.8409 13.1689 9C13.1689 7.067 14.7359 5.5 16.6689 5.5C17.742 5.5 18.7681 5.99045 19.4167 6.67891ZM9.41669 6.67891C10.4469 7.77257 11.0001 9 11.0001 10.9897C11.0001 14.4891 8.54359 17.6263 4.96951 19.1768L4.07682 17.7992C7.41206 15.9946 8.06392 13.6539 8.32447 12.178C7.78747 12.4557 7.08452 12.5533 6.39539 12.4895C4.59102 12.3222 3.16895 10.8409 3.16895 9C3.16895 7.067 4.73595 5.5 6.66895 5.5C7.742 5.5 8.76814 5.99045 9.41669 6.67891Z"></path></svg>
+                    </div>
+                  </div>  
+              </div>
+
+              <div class="bg-green-900 rounded-md p-2 container transition ease-out duration-500 hover:scale-105">
+                <div class="flex flex-col text-white text-sm md:text-lg px-4">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur suscipit sed nobis in. Ipsa, perspiciatis a. Eaque, velit sint!</p> 
+                   <div class="flex flex-row items-center justify-between">
+                     <div class="flex gap-3 py-2">
+                        <img class="rounded-full w-12 h-12" src="./img/review-4.jpg" alt="">
+                        <div> 
+                          <p class="text-yellow-400 uppercase text-sm md:text-lg font-Jost">helena</p>
+                          <p class="text-white font-serif">Manager</p>
+                         </div>    
+                      </div>
+                      <svg class="text-white w-4 h-4 md:w-8 md:h-8 text-4xl"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.4167 6.67891C20.4469 7.77257 21.0001 9 21.0001 10.9897C21.0001 14.4891 18.5436 17.6263 14.9695 19.1768L14.0768 17.7992C17.4121 15.9946 18.0639 13.6539 18.3245 12.178C17.7875 12.4557 17.0845 12.5533 16.3954 12.4895C14.591 12.3222 13.1689 10.8409 13.1689 9C13.1689 7.067 14.7359 5.5 16.6689 5.5C17.742 5.5 18.7681 5.99045 19.4167 6.67891ZM9.41669 6.67891C10.4469 7.77257 11.0001 9 11.0001 10.9897C11.0001 14.4891 8.54359 17.6263 4.96951 19.1768L4.07682 17.7992C7.41206 15.9946 8.06392 13.6539 8.32447 12.178C7.78747 12.4557 7.08452 12.5533 6.39539 12.4895C4.59102 12.3222 3.16895 10.8409 3.16895 9C3.16895 7.067 4.73595 5.5 6.66895 5.5C7.742 5.5 8.76814 5.99045 9.41669 6.67891Z"></path></svg>
+                    </div>
+                  </div>  
+              </div>               
+    </div>      
+</div>
+<!-- review section ends here -->
+ <!-- footer starts here -->
+  <!-- newsletter section starts here -->
+  <div class="bg-yellow-100 pt-10 px-8 md:px-20">
+  <div class="bg-green-900 rounded-md py-4 container px-20">
+    <p class="text-white text-xl md:text-3xl text-center  font-Jost"><span class="text-yellow-400">Subscribe</span> to our newsletter</p>
+    <div class="flex flex-col md:flex-row gap-3 mt-4">
+        <button class="bg-white text-slate-500 rounded-sm hover:cursor-pointer flex-1 p-2 font-serif transition ease-out duration-300">Enter Email Address</button>
+        <button class="bg-red-400 text-green-900 rounded-lg hover:cursor-pointer hover:bg-red-500 p-2 font-serif transition hover:scale-105 duration-300 hover:cursor ease-out">Subscribe</button>
+    </div>
+  </div>
+</div>
+<!-- newsletter section ends header -->
+  <div class="bg-yellow-100 h-auto flex flex-col md:flex-row items-center justify-center md:justify-evenly py-10 gap-10 ">
+    <div class="flex flex-col items-center gap-3">
+        
+    <svg class="text-green-950 w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.998 3V5C20.998 14.6274 15.6255 19 8.99805 19L5.24077 18.9999C5.0786 19.912 4.99805 20.907 4.99805 22H2.99805C2.99805 20.6373 3.11376 19.3997 3.34381 18.2682C3.1133 16.9741 2.99805 15.2176 2.99805 13C2.99805 7.47715 7.4752 3 12.998 3C14.998 3 16.998 4 20.998 3ZM12.998 5C8.57977 5 4.99805 8.58172 4.99805 13C4.99805 13.3624 5.00125 13.7111 5.00759 14.0459C6.26198 12.0684 8.09902 10.5048 10.5019 9.13176L11.4942 10.8682C8.6393 12.4996 6.74554 14.3535 5.77329 16.9998L8.99805 17C15.0132 17 18.8692 13.0269 18.9949 5.38766C17.6229 5.52113 16.3481 5.436 14.7754 5.20009C13.6243 5.02742 13.3988 5 12.998 5Z"></path></svg>
+    <div class="font-Lobster text-3xl text-green-950 font-bold">The Green Cart.</div>
+    </div> 
+
+
+    <div class="flex flex-col gap-3 justify-center items-center">
+      <div class="text-green-950 text-xl font-bold font-jost pb-5">Quick Links</div>
+      <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Plants</div>
+      <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Flowers</div>
+      <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Seeds</div>
+      <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Shipping</div>
+    </div>
+
+    <div class="flex flex-col gap-3 justify-center items-center">
+        <div class="text-green-950 text-xl font-bold font-jost pb-5">Popular Services</div>
+        <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Tree Plantation</div>
+        <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Grass Cutting</div>
+        <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Weed Control</div>
+        <div class="text-green-950 text-lg font-serif hover:cursor-pointer">Projects</div>
+    </div>
+
+
+    <div class="flex flex-col gap-3 justify-center items-center">
+        <div class="text-green-950 text-xl font-bold font-jost pb-5">Contact Us</div>
+        <div class="text-green-950 text-lg font-sans"> +92 789 34 678</div>
+        <div class="text-green-950 text-lg font-serif">abcd12@gmail.com</div>
+        <div class="text-green-950 text-lg font-serif">Hd street, bay lane Mumbai<br> Maharastra India 78902</div> 
+    </div>
+  </div>
+  <!-- copyright -->
+   <hr>
+  <div class="text-slate-700 bg-yellow-100 text-lg font-serif text-center pt-5 border-t-[1px] border-green-950 pb-2">Copyright @2024 The Green Cart</div>
+
+
+</body>
+</html>
