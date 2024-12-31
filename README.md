@@ -1,2 +1,2 @@
 # The-Green-Cart
-Made this landing page of an E-commerce by HTML and Tailwind CSS. 
+Developed a fully responsive e-commerce landing page called The Green Cart using HTML amd Tailwind CSS.
